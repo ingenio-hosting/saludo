@@ -1,7 +1,7 @@
 ##### PEQUEÑO
 # GRANDE
 
-PHP ```
+php```
 
 <?php
  echo "hola";
