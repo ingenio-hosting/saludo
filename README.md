@@ -1,2 +1,10 @@
-# saludo
-Libreria php saludo
+##### PEQUEÑO
+# GRANDE
+
+PHP ```
+
+<?php
+ echo "hola";
+?>
+
+```

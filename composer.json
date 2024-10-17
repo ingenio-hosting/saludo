@@ -1,0 +1,25 @@
+{
+
+"name": "ingeniohosting/saludo",
+"description": "Libreia Saludo v1.0.0 en PHP para generar saludos by Profe Productions",
+"authors": [
+    {
+        "name":"Profe Prduction",
+        "email": "toni@ngenio.net",
+        "homepage": "http://www.saludo.com"
+       
+    }
+],
+"license": "MIT",
+"minimum-stability": "dev",
+"prefer-stable": true,
+"require": {
+    "php":">=7.4"    
+},
+"autoload": {
+    "psr-4": {
+        "Saludo\\Saludo\\": "src/"
+    }
+}
+
+}
