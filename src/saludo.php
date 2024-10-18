@@ -1,15 +1,17 @@
 <?php
 namespace Saludo\Saludo;
-
+// hola
 Class Saludo{
     private $msn;
+    private $usuario;
 
-    public function __construct(){
+    public function __construct($usuario){
         $this->setSaludo();
+        $this->usuario = $usuario;
     }
 
     private function setSaludo(){
-        $this->msn = "Hola Mundo";
+        $this->msn = "Bienvenido, Sr/Sra.".$this->usuario;
     }
 
     public function getSaludo(){
